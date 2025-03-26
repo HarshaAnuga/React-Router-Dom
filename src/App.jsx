@@ -12,7 +12,7 @@ function App() {
     <AppBar></AppBar>
     <Routes>
       <Route path ="/Dashboard" element={<Dashboard/>}/>
-      <Route path="/" element ={<Landing/>}/>
+      <Route path="/Landing" element ={<Landing/>}/>
     </Routes>
       
     </BrowserRouter>
